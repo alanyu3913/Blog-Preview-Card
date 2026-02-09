@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.component {
+    display: flex;
+    flex-basis: 250px;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: black 5px 5px;;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning {
+    margin-top: 10px;
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    height: 20px;
+    font-size: 4px;
+    padding: 0px 5px 0px 5px;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.description {
+    font-size: 12px;
+    color: grey;
+}
+
+.author {
+    display:flex;
+    align-items: center;;
+}
+
+.author > h1 {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.author > img {
+    width: 15%;
+    height: 15%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
